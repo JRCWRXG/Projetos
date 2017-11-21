@@ -1,0 +1,8 @@
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Servico\Servico\bin\Debug\Servico.exe.config
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Servico\Servico\bin\Debug\Servico.exe
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Servico\Servico\bin\Debug\Servico.pdb
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Servico\Servico\obj\Debug\Servico.ProjectInstaller.resources
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Servico\Servico\obj\Debug\Servico.csproj.GenerateResource.Cache
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Servico\Servico\obj\Debug\Servico.exe
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Servico\Servico\obj\Debug\Servico.pdb
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Servico\Servico\obj\Debug\Servico.csprojResolveAssemblyReference.cache
