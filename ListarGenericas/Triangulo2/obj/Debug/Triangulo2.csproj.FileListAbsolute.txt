@@ -1,0 +1,6 @@
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\Triangulo2\bin\Debug\Triangulo2.exe.config
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\Triangulo2\bin\Debug\Triangulo2.exe
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\Triangulo2\bin\Debug\Triangulo2.pdb
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\Triangulo2\obj\Debug\Triangulo2.csprojResolveAssemblyReference.cache
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\Triangulo2\obj\Debug\Triangulo2.exe
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\Triangulo2\obj\Debug\Triangulo2.pdb

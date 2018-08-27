@@ -1,0 +1,6 @@
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\ListarGenericas\bin\Debug\ListarGenericas.exe.config
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\ListarGenericas\bin\Debug\ListarGenericas.exe
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\ListarGenericas\bin\Debug\ListarGenericas.pdb
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\ListarGenericas\obj\Debug\ListarGenericas.csprojResolveAssemblyReference.cache
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\ListarGenericas\obj\Debug\ListarGenericas.exe
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\ListarGenericas\obj\Debug\ListarGenericas.pdb

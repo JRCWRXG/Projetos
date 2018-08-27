@@ -1,0 +1,6 @@
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\CriacaoClasse\bin\Debug\CriacaoClasse.exe.config
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\CriacaoClasse\bin\Debug\CriacaoClasse.exe
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\CriacaoClasse\bin\Debug\CriacaoClasse.pdb
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\CriacaoClasse\obj\Debug\CriacaoClasse.csprojResolveAssemblyReference.cache
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\CriacaoClasse\obj\Debug\CriacaoClasse.exe
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\CriacaoClasse\obj\Debug\CriacaoClasse.pdb

@@ -1,0 +1,6 @@
+c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\Agenda\bin\Debug\Agenda.exe.config
+C:\Users\JRCWRXG\documents\visual studio 2013\Projects\ListarGenericas\Agenda\bin\Debug\Agenda.exe
+C:\Users\JRCWRXG\documents\visual studio 2013\Projects\ListarGenericas\Agenda\bin\Debug\Agenda.pdb
+C:\Users\JRCWRXG\documents\visual studio 2013\Projects\ListarGenericas\Agenda\obj\Debug\Agenda.csprojResolveAssemblyReference.cache
+C:\Users\JRCWRXG\documents\visual studio 2013\Projects\ListarGenericas\Agenda\obj\Debug\Agenda.exe
+C:\Users\JRCWRXG\documents\visual studio 2013\Projects\ListarGenericas\Agenda\obj\Debug\Agenda.pdb
