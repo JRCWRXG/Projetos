@@ -4,3 +4,9 @@ c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\CriacaoCl
 c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\CriacaoClasse\obj\Debug\CriacaoClasse.csprojResolveAssemblyReference.cache
 c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\CriacaoClasse\obj\Debug\CriacaoClasse.exe
 c:\users\jrcwrxg\documents\visual studio 2013\Projects\ListarGenericas\CriacaoClasse\obj\Debug\CriacaoClasse.pdb
+C:\Users\JRCWRXG\Documents\GitHub\Projetos\ListarGenericas\CriacaoClasse\bin\Debug\CriacaoClasse.exe.config
+C:\Users\JRCWRXG\Documents\GitHub\Projetos\ListarGenericas\CriacaoClasse\bin\Debug\CriacaoClasse.exe
+C:\Users\JRCWRXG\Documents\GitHub\Projetos\ListarGenericas\CriacaoClasse\bin\Debug\CriacaoClasse.pdb
+C:\Users\JRCWRXG\Documents\GitHub\Projetos\ListarGenericas\CriacaoClasse\obj\Debug\CriacaoClasse.csprojResolveAssemblyReference.cache
+C:\Users\JRCWRXG\Documents\GitHub\Projetos\ListarGenericas\CriacaoClasse\obj\Debug\CriacaoClasse.exe
+C:\Users\JRCWRXG\Documents\GitHub\Projetos\ListarGenericas\CriacaoClasse\obj\Debug\CriacaoClasse.pdb

@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace ListarGenericas
 {
+
+    //Teste para GitHub
+
+    
     class Cliente
     {
+
+        private string Teste; 
         public int id { get; set; }
         public string nome { get; set; }
         public string apelido { get; set; }
