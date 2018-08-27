@@ -9,3 +9,4 @@ C:\Users\JRCWRXG\Documents\GitHub\Projetos\ListarGenericas\CriacaoClasse\bin\Deb
 C:\Users\JRCWRXG\Documents\GitHub\Projetos\ListarGenericas\CriacaoClasse\bin\Debug\CriacaoClasse.pdb
 C:\Users\JRCWRXG\Documents\GitHub\Projetos\ListarGenericas\CriacaoClasse\obj\Debug\CriacaoClasse.exe
 C:\Users\JRCWRXG\Documents\GitHub\Projetos\ListarGenericas\CriacaoClasse\obj\Debug\CriacaoClasse.pdb
+C:\Users\JRCWRXG\Documents\GitHub\Projetos\ListarGenericas\CriacaoClasse\obj\Debug\CriacaoClasse.csprojResolveAssemblyReference.cache

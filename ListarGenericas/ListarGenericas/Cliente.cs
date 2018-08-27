@@ -14,7 +14,7 @@ namespace ListarGenericas
     {
 
         private string Teste;
-        private string Teste2; 
+       
         public int id { get; set; }
         public string nome { get; set; }
         public string apelido { get; set; }
