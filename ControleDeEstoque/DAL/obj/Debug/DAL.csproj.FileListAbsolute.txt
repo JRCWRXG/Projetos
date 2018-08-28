@@ -1,0 +1,14 @@
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\DAL\bin\Debug\DAL.dll
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\DAL\bin\Debug\DAL.pdb
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\DAL\bin\Debug\Modelo.dll
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\DAL\bin\Debug\Modelo.pdb
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\DAL\obj\Debug\DAL.dll
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\DAL\obj\Debug\DAL.pdb
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\DAL\bin\Debug\DAL.dll
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\DAL\bin\Debug\DAL.pdb
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\DAL\bin\Debug\Modelo.dll
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\DAL\bin\Debug\Modelo.pdb
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\DAL\obj\Debug\DAL.dll
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\DAL\obj\Debug\DAL.pdb

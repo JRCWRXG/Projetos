@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Pedidos" Class="PedidosDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=Pedidos;Integrated Security=True" SettingsObjectName="Listas.Properties.Settings" SettingsPropertyName="PedidosConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CLIENTES" Member="CLIENTEs">
+    <Type Name="CLIENTE">
+      <Column Name="CODCLI" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FANTASIA" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ENDERECO" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="BAIRRO" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CIDADE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ESTADO" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="CEP" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="END_COB" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="BAI_COB" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CID_COB" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="EST_COB" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="CEP_COB" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="CNPJ" Type="System.String" DbType="VarChar(18)" CanBeNull="true" />
+      <Column Name="INSCRICAO" Type="System.String" DbType="VarChar(19)" CanBeNull="true" />
+      <Column Name="FONE1" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="FAX" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="E_MAIL" Type="System.String" DbType="VarChar(35)" CanBeNull="true" />
+      <Column Name="DATA_CAD" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ICMS" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="REVENDA_CONSUMIDOR" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="CLIENTE_PEDIDO" Member="PEDIDOs" ThisKey="CODCLI" OtherKey="CODCLI" Type="PEDIDO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PEDIDOS" Member="PEDIDOs">
+    <Type Name="PEDIDO">
+      <Column Name="NUM_PEDIDO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CODCLI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CODVEN" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="DATA_EMISSAO" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VLR_TOTAL" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="SITUACAO" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="OBSERVACOES" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="PEDIDO_ITENSPEDIDO" Member="ITENSPEDIDOs" ThisKey="NUM_PEDIDO" OtherKey="NUM_PEDIDO" Type="ITENSPEDIDO" />
+      <Association Name="CLIENTE_PEDIDO" Member="CLIENTE" ThisKey="CODCLI" OtherKey="CODCLI" Type="CLIENTE" IsForeignKey="true" />
+      <Association Name="VENDEDORE_PEDIDO" Member="VENDEDORE" ThisKey="CODVEN" OtherKey="CODVEN" Type="VENDEDORE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VENDEDORES" Member="VENDEDOREs">
+    <Type Name="VENDEDORE">
+      <Column Name="CODVEN" Type="System.Int16" DbType="SmallInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FANTASIA" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ENDERECO" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="BAIRRO" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CIDADE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ESTADO" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="CEP" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="CPF" Type="System.String" DbType="VarChar(18)" CanBeNull="true" />
+      <Column Name="RG" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="FONE" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="FAX" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="E_MAIL" Type="System.String" DbType="VarChar(35)" CanBeNull="true" />
+      <Column Name="DATA_CAD" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DATA_NASC" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PORC_COMISSAO" Type="System.Decimal" DbType="Decimal(5,2)" CanBeNull="true" />
+      <Association Name="VENDEDORE_PEDIDO" Member="PEDIDOs" ThisKey="CODVEN" OtherKey="CODVEN" Type="PEDIDO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ITENSPEDIDO" Member="ITENSPEDIDOs">
+    <Type Name="ITENSPEDIDO">
+      <Column Name="NUM_PEDIDO" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NUM_ITEM" Type="System.Int16" DbType="SmallInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_PRODUTO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COD_PRODUTO" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="CODCOR" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="QUANTIDADE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PR_UNITARIO" Type="System.Decimal" DbType="Decimal(18,4)" CanBeNull="true" />
+      <Column Name="DATA_ENTREGA" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SITUACAO" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="DESCONTO" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="PEDIDO_ITENSPEDIDO" Member="PEDIDO" ThisKey="NUM_PEDIDO" OtherKey="NUM_PEDIDO" Type="PEDIDO" IsForeignKey="true" />
+      <Association Name="PRODUTO_ITENSPEDIDO" Member="PRODUTO" ThisKey="ID_PRODUTO" OtherKey="ID_PRODUTO" Type="PRODUTO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PRODUTOS" Member="PRODUTOs">
+    <Type Name="PRODUTO">
+      <Column Name="ID_PRODUTO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="COD_PRODUTO" Type="System.String" DbType="VarChar(13) NOT NULL" CanBeNull="false" />
+      <Column Name="DESCRICAO" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="COD_UNIDADE" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="COD_TIPO" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="PRECO_CUSTO" Type="System.Decimal" DbType="Decimal(18,4)" CanBeNull="true" />
+      <Column Name="PRECO_VENDA" Type="System.Decimal" DbType="Decimal(18,4)" CanBeNull="true" />
+      <Column Name="QTD_ESTIMADA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QTD_REAL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QTD_MINIMA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CLAS_FISC" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="IPI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PESO_LIQ" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Association Name="PRODUTO_ITENSPEDIDO" Member="ITENSPEDIDOs" ThisKey="ID_PRODUTO" OtherKey="ID_PRODUTO" Type="ITENSPEDIDO" />
+      <Association Name="TIPOPRODUTO_PRODUTO" Member="TIPOPRODUTO" ThisKey="COD_TIPO" OtherKey="COD_TIPO" Type="TIPOPRODUTO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TIPOPRODUTO" Member="TIPOPRODUTOs">
+    <Type Name="TIPOPRODUTO">
+      <Column Name="COD_TIPO" Type="System.Int16" DbType="SmallInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TIPO" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Association Name="TIPOPRODUTO_PRODUTO" Member="PRODUTOs" ThisKey="COD_TIPO" OtherKey="COD_TIPO" Type="PRODUTO" />
+    </Type>
+  </Table>
+</Database>

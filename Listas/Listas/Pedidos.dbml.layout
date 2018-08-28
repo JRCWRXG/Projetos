@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 13.625" name="Pedidos">
+  <DataContextMoniker Name="/PedidosDataContext" />
+  <nestedChildShapes>
+    <classShape Id="97848295-07c4-4bc8-885d-7599e580d5e0" absoluteBounds="0.75, 8.5, 2, 4.8477197265624987">
+      <DataClassMoniker Name="/PedidosDataContext/CLIENTE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4b6a9cd8-0367-4004-a5e5-3c6d69e37796" absoluteBounds="0.765, 8.96, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7998d4fb-975b-42fb-90bf-b803e3867f00" absoluteBounds="3.5, 1.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/PedidosDataContext/PEDIDO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2e439263-0d7a-4dba-88d7-635ed0974888" absoluteBounds="3.515, 2.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="edf77441-262e-459e-9bbf-53841329b8f2" absoluteBounds="0.75, 1, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/PedidosDataContext/VENDEDORE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="60d8c714-3404-4729-ba60-dc96720f981a" absoluteBounds="0.76500000059604645, 1.4600000008940697, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 8.50153746153846); (3.125 : 8.12653746153846); (3.125 : 2.95274983723958); (3.5 : 2.95274983723958)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PedidosDataContext/CLIENTE/CLIENTE_PEDIDO" />
+      <nodes>
+        <classShapeMoniker Id="97848295-07c4-4bc8-885d-7599e580d5e0" />
+        <classShapeMoniker Id="7998d4fb-975b-42fb-90bf-b803e3867f00" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.35137491861979); (3.5 : 2.35137491861979)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PedidosDataContext/VENDEDORE/VENDEDORE_PEDIDO" />
+      <nodes>
+        <classShapeMoniker Id="edf77441-262e-459e-9bbf-53841329b8f2" />
+        <classShapeMoniker Id="7998d4fb-975b-42fb-90bf-b803e3867f00" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0f963fdc-9c8b-4634-8b9b-0174c94b2a14" absoluteBounds="6.25, 1.625, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/PedidosDataContext/ITENSPEDIDO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="09081354-cc22-429e-abd8-ecc70ea4a7e7" absoluteBounds="6.265, 2.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 2.95274983723958); (6.25 : 2.95274983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PedidosDataContext/PEDIDO/PEDIDO_ITENSPEDIDO" />
+      <nodes>
+        <classShapeMoniker Id="7998d4fb-975b-42fb-90bf-b803e3867f00" />
+        <classShapeMoniker Id="0f963fdc-9c8b-4634-8b9b-0174c94b2a14" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="90c49b27-fa24-4aa5-9bbe-c33b6405e0df" absoluteBounds="3.5, 5.25, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/PedidosDataContext/PRODUTO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d85ce5c7-9ecc-458d-8dd1-f9c70dc65280" absoluteBounds="3.5150000000000006, 5.71, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 6.90465413411458); (7.25 : 6.90465413411458); (7.25 : 4.35740397135417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PedidosDataContext/PRODUTO/PRODUTO_ITENSPEDIDO" />
+      <nodes>
+        <classShapeMoniker Id="90c49b27-fa24-4aa5-9bbe-c33b6405e0df" />
+        <classShapeMoniker Id="0f963fdc-9c8b-4634-8b9b-0174c94b2a14" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f3b78bc7-b8ed-4f8a-a571-f33b8ce97ec2" absoluteBounds="8.125, 5.25, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/PedidosDataContext/TIPOPRODUTO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dad97466-9568-481b-b210-1562a8461390" absoluteBounds="8.14, 5.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.125 : 5.84699625651042); (7.33333333333333 : 5.84699625651042 : JumpStart); (7.16666666666667 : 5.84699625651042 : JumpEnd); (5.5 : 5.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PedidosDataContext/TIPOPRODUTO/TIPOPRODUTO_PRODUTO" />
+      <nodes>
+        <classShapeMoniker Id="f3b78bc7-b8ed-4f8a-a571-f33b8ce97ec2" />
+        <classShapeMoniker Id="90c49b27-fa24-4aa5-9bbe-c33b6405e0df" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

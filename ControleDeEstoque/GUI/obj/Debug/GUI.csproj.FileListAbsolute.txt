@@ -1,0 +1,42 @@
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\bin\Debug\GUI.exe.config
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\bin\Debug\GUI.exe
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\bin\Debug\GUI.pdb
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\bin\Debug\BLL.dll
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\bin\Debug\DAL.dll
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\bin\Debug\Modelo.dll
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\bin\Debug\BLL.pdb
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\bin\Debug\DAL.pdb
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\bin\Debug\Modelo.pdb
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.exe
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.pdb
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.frmPrincipal.resources
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.frmModeloDeFormularioDeCadastro.resources
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.frmCadastroCategoria.resources
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.frmConsultaCategoria.resources
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\bin\Debug\GUI.exe.config
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.exe
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.pdb
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\bin\Debug\GUI.exe
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\bin\Debug\GUI.pdb
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\bin\Debug\BLL.dll
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\bin\Debug\DAL.dll
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\bin\Debug\Modelo.dll
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\bin\Debug\BLL.pdb
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\bin\Debug\DAL.pdb
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\bin\Debug\Modelo.pdb
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.frmCadastroCategoria.resources
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.frmConsultaCategoria.resources
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.frmModeloDeFormularioDeCadastro.resources
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.frmPrincipal.resources
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\ControleDeEstoque\GUI\bin\Debug\GUI.exe.config
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.exe
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.pdb
+C:\Users\Public\Geral\My Projeto\ControleDeEstoque\GUI\bin\Debug\GUI.exe.config
+C:\Users\Public\Geral\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.exe
+C:\Users\Public\Geral\My Projeto\ControleDeEstoque\GUI\obj\Debug\GUI.pdb

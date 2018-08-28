@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PedidosModelStoreContainer" CdmEntityContainer="PedidosEntities">
+    <EntitySetMapping Name="CLIENTES">
+      <EntityTypeMapping TypeName="PedidosModel.CLIENTES">
+        <MappingFragment StoreEntitySet="CLIENTES">
+          <ScalarProperty Name="CODCLI" ColumnName="CODCLI" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="FANTASIA" ColumnName="FANTASIA" />
+          <ScalarProperty Name="ENDERECO" ColumnName="ENDERECO" />
+          <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+          <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="END_COB" ColumnName="END_COB" />
+          <ScalarProperty Name="BAI_COB" ColumnName="BAI_COB" />
+          <ScalarProperty Name="CID_COB" ColumnName="CID_COB" />
+          <ScalarProperty Name="EST_COB" ColumnName="EST_COB" />
+          <ScalarProperty Name="CEP_COB" ColumnName="CEP_COB" />
+          <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
+          <ScalarProperty Name="INSCRICAO" ColumnName="INSCRICAO" />
+          <ScalarProperty Name="FONE1" ColumnName="FONE1" />
+          <ScalarProperty Name="FAX" ColumnName="FAX" />
+          <ScalarProperty Name="E_MAIL" ColumnName="E_MAIL" />
+          <ScalarProperty Name="DATA_CAD" ColumnName="DATA_CAD" />
+          <ScalarProperty Name="ICMS" ColumnName="ICMS" />
+          <ScalarProperty Name="REVENDA_CONSUMIDOR" ColumnName="REVENDA_CONSUMIDOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

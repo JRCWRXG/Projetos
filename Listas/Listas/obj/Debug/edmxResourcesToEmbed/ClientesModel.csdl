@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PedidosModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PedidosEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="CLIENTES" EntityType="PedidosModel.CLIENTES" />
+  </EntityContainer>
+  <EntityType Name="CLIENTES">
+    <Key>
+      <PropertyRef Name="CODCLI" />
+    </Key>
+    <Property Name="CODCLI" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="NOME" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FANTASIA" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ENDERECO" Type="String" MaxLength="60" Unicode="false" FixedLength="false" />
+    <Property Name="BAIRRO" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="CIDADE" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ESTADO" Type="String" MaxLength="2" Unicode="false" FixedLength="false" />
+    <Property Name="CEP" Type="String" MaxLength="8" Unicode="false" FixedLength="false" />
+    <Property Name="END_COB" Type="String" MaxLength="60" Unicode="false" FixedLength="false" />
+    <Property Name="BAI_COB" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="CID_COB" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="EST_COB" Type="String" MaxLength="2" Unicode="false" FixedLength="false" />
+    <Property Name="CEP_COB" Type="String" MaxLength="8" Unicode="false" FixedLength="false" />
+    <Property Name="CNPJ" Type="String" MaxLength="18" Unicode="false" FixedLength="false" />
+    <Property Name="INSCRICAO" Type="String" MaxLength="19" Unicode="false" FixedLength="false" />
+    <Property Name="FONE1" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="FAX" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="E_MAIL" Type="String" MaxLength="35" Unicode="false" FixedLength="false" />
+    <Property Name="DATA_CAD" Type="DateTime" Precision="3" />
+    <Property Name="ICMS" Type="Double" />
+    <Property Name="REVENDA_CONSUMIDOR" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+  </EntityType>
+</Schema>

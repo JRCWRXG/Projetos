@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="PedidosModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="PedidosModelStoreContainer">
+          <EntitySet Name="CLIENTES" EntityType="PedidosModel.Store.CLIENTES" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="CLIENTES">
+          <Key>
+            <PropertyRef Name="CODCLI" />
+          </Key>
+          <Property Name="CODCLI" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NOME" Type="varchar" MaxLength="50" />
+          <Property Name="FANTASIA" Type="varchar" MaxLength="20" />
+          <Property Name="ENDERECO" Type="varchar" MaxLength="60" />
+          <Property Name="BAIRRO" Type="varchar" MaxLength="20" />
+          <Property Name="CIDADE" Type="varchar" MaxLength="20" />
+          <Property Name="ESTADO" Type="varchar" MaxLength="2" />
+          <Property Name="CEP" Type="varchar" MaxLength="8" />
+          <Property Name="END_COB" Type="varchar" MaxLength="60" />
+          <Property Name="BAI_COB" Type="varchar" MaxLength="20" />
+          <Property Name="CID_COB" Type="varchar" MaxLength="20" />
+          <Property Name="EST_COB" Type="varchar" MaxLength="2" />
+          <Property Name="CEP_COB" Type="varchar" MaxLength="8" />
+          <Property Name="CNPJ" Type="varchar" MaxLength="18" />
+          <Property Name="INSCRICAO" Type="varchar" MaxLength="19" />
+          <Property Name="FONE1" Type="varchar" MaxLength="15" />
+          <Property Name="FAX" Type="varchar" MaxLength="15" />
+          <Property Name="E_MAIL" Type="varchar" MaxLength="35" />
+          <Property Name="DATA_CAD" Type="datetime" />
+          <Property Name="ICMS" Type="float" />
+          <Property Name="REVENDA_CONSUMIDOR" Type="char" MaxLength="1" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PedidosModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="PedidosEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="CLIENTES" EntityType="PedidosModel.CLIENTES" />
+        </EntityContainer>
+        <EntityType Name="CLIENTES">
+          <Key>
+            <PropertyRef Name="CODCLI" />
+          </Key>
+          <Property Name="CODCLI" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="NOME" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="FANTASIA" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="ENDERECO" Type="String" MaxLength="60" Unicode="false" FixedLength="false" />
+          <Property Name="BAIRRO" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="CIDADE" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="ESTADO" Type="String" MaxLength="2" Unicode="false" FixedLength="false" />
+          <Property Name="CEP" Type="String" MaxLength="8" Unicode="false" FixedLength="false" />
+          <Property Name="END_COB" Type="String" MaxLength="60" Unicode="false" FixedLength="false" />
+          <Property Name="BAI_COB" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="CID_COB" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="EST_COB" Type="String" MaxLength="2" Unicode="false" FixedLength="false" />
+          <Property Name="CEP_COB" Type="String" MaxLength="8" Unicode="false" FixedLength="false" />
+          <Property Name="CNPJ" Type="String" MaxLength="18" Unicode="false" FixedLength="false" />
+          <Property Name="INSCRICAO" Type="String" MaxLength="19" Unicode="false" FixedLength="false" />
+          <Property Name="FONE1" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="FAX" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="E_MAIL" Type="String" MaxLength="35" Unicode="false" FixedLength="false" />
+          <Property Name="DATA_CAD" Type="DateTime" Precision="3" />
+          <Property Name="ICMS" Type="Double" />
+          <Property Name="REVENDA_CONSUMIDOR" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PedidosModelStoreContainer" CdmEntityContainer="PedidosEntities">
+          <EntitySetMapping Name="CLIENTES">
+            <EntityTypeMapping TypeName="PedidosModel.CLIENTES">
+              <MappingFragment StoreEntitySet="CLIENTES">
+                <ScalarProperty Name="CODCLI" ColumnName="CODCLI" />
+                <ScalarProperty Name="NOME" ColumnName="NOME" />
+                <ScalarProperty Name="FANTASIA" ColumnName="FANTASIA" />
+                <ScalarProperty Name="ENDERECO" ColumnName="ENDERECO" />
+                <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+                <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+                <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+                <ScalarProperty Name="CEP" ColumnName="CEP" />
+                <ScalarProperty Name="END_COB" ColumnName="END_COB" />
+                <ScalarProperty Name="BAI_COB" ColumnName="BAI_COB" />
+                <ScalarProperty Name="CID_COB" ColumnName="CID_COB" />
+                <ScalarProperty Name="EST_COB" ColumnName="EST_COB" />
+                <ScalarProperty Name="CEP_COB" ColumnName="CEP_COB" />
+                <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
+                <ScalarProperty Name="INSCRICAO" ColumnName="INSCRICAO" />
+                <ScalarProperty Name="FONE1" ColumnName="FONE1" />
+                <ScalarProperty Name="FAX" ColumnName="FAX" />
+                <ScalarProperty Name="E_MAIL" ColumnName="E_MAIL" />
+                <ScalarProperty Name="DATA_CAD" ColumnName="DATA_CAD" />
+                <ScalarProperty Name="ICMS" ColumnName="ICMS" />
+                <ScalarProperty Name="REVENDA_CONSUMIDOR" ColumnName="REVENDA_CONSUMIDOR" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

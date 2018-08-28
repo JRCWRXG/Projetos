@@ -1,0 +1,9 @@
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Linq\bin\Debug\Linq.exe.config
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Linq\bin\Debug\Linq.exe
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Linq\bin\Debug\Linq.pdb
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Linq\obj\Debug\Linq.csprojResolveAssemblyReference.cache
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Linq\obj\Debug\Linq.Form1.resources
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Linq\obj\Debug\Linq.Properties.Resources.resources
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Linq\obj\Debug\Linq.csproj.GenerateResource.Cache
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Linq\obj\Debug\Linq.exe
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Linq\obj\Debug\Linq.pdb

@@ -1,0 +1,30 @@
+c:\users\vivi arts\documents\visual studio 2012\Projects\Listas\Listas\bin\Debug\Listas.exe.config
+c:\users\vivi arts\documents\visual studio 2012\Projects\Listas\Listas\bin\Debug\Listas.exe
+c:\users\vivi arts\documents\visual studio 2012\Projects\Listas\Listas\bin\Debug\Listas.pdb
+c:\users\vivi arts\documents\visual studio 2012\Projects\Listas\Listas\obj\Debug\Listas.csprojResolveAssemblyReference.cache
+c:\users\vivi arts\documents\visual studio 2012\Projects\Listas\Listas\obj\Debug\Listas.Form1.resources
+c:\users\vivi arts\documents\visual studio 2012\Projects\Listas\Listas\obj\Debug\Listas.Properties.Resources.resources
+c:\users\vivi arts\documents\visual studio 2012\Projects\Listas\Listas\obj\Debug\Listas.csproj.GenerateResource.Cache
+c:\users\vivi arts\documents\visual studio 2012\Projects\Listas\Listas\obj\Debug\Listas.exe
+c:\users\vivi arts\documents\visual studio 2012\Projects\Listas\Listas\obj\Debug\Listas.pdb
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\bin\Debug\Listas.exe.config
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.exe
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.pdb
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.Properties.Resources.resources
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.csproj.GenerateResource.Cache
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\bin\Debug\Listas.exe
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\bin\Debug\Listas.pdb
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.Form2.resources
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.Form3.resources
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.Form1.resources
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.Form4.resources
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\bin\Debug\EntityFramework.dll
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\bin\Debug\EntityFramework.xml
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.Form5.resources
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.Form6.resources
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.FrmCadastro.resources
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.Form7.resources
+C:\Users\JRCWRXG\Desktop\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.FrmStreamWritercs.resources
+C:\Users\Public\Geral\My Projeto\Listas\Listas\bin\Debug\Listas.exe.config
+C:\Users\Public\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.exe
+C:\Users\Public\Geral\My Projeto\Listas\Listas\obj\Debug\Listas.pdb

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PedidosModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PedidosModelStoreContainer">
+    <EntitySet Name="CLIENTES" EntityType="PedidosModel.Store.CLIENTES" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="CLIENTES">
+    <Key>
+      <PropertyRef Name="CODCLI" />
+    </Key>
+    <Property Name="CODCLI" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NOME" Type="varchar" MaxLength="50" />
+    <Property Name="FANTASIA" Type="varchar" MaxLength="20" />
+    <Property Name="ENDERECO" Type="varchar" MaxLength="60" />
+    <Property Name="BAIRRO" Type="varchar" MaxLength="20" />
+    <Property Name="CIDADE" Type="varchar" MaxLength="20" />
+    <Property Name="ESTADO" Type="varchar" MaxLength="2" />
+    <Property Name="CEP" Type="varchar" MaxLength="8" />
+    <Property Name="END_COB" Type="varchar" MaxLength="60" />
+    <Property Name="BAI_COB" Type="varchar" MaxLength="20" />
+    <Property Name="CID_COB" Type="varchar" MaxLength="20" />
+    <Property Name="EST_COB" Type="varchar" MaxLength="2" />
+    <Property Name="CEP_COB" Type="varchar" MaxLength="8" />
+    <Property Name="CNPJ" Type="varchar" MaxLength="18" />
+    <Property Name="INSCRICAO" Type="varchar" MaxLength="19" />
+    <Property Name="FONE1" Type="varchar" MaxLength="15" />
+    <Property Name="FAX" Type="varchar" MaxLength="15" />
+    <Property Name="E_MAIL" Type="varchar" MaxLength="35" />
+    <Property Name="DATA_CAD" Type="datetime" />
+    <Property Name="ICMS" Type="float" />
+    <Property Name="REVENDA_CONSUMIDOR" Type="char" MaxLength="1" />
+  </EntityType>
+</Schema>

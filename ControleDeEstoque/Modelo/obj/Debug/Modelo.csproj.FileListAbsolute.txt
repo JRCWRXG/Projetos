@@ -1,0 +1,8 @@
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\Modelo\bin\Debug\Modelo.dll
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\Modelo\obj\Debug\Modelo.dll
+C:\Users\Vivi Arts\Desktop\My Projeto\ControleDeEstoque\Modelo\obj\Debug\Modelo.pdb
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\Modelo\bin\Debug\Modelo.dll
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\Modelo\bin\Debug\Modelo.pdb
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\Modelo\obj\Debug\Modelo.dll
+C:\Users\JRCWRXG\Desktop\Leva\My Projeto\ControleDeEstoque\Modelo\obj\Debug\Modelo.pdb
