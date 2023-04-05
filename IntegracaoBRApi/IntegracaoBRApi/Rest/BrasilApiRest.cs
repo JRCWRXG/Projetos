@@ -42,6 +42,7 @@ namespace IntegracaoBRApi.Rest
 
         public Task<ResponseGenerico<List<BancoModel>>> BuscarTodosBancos()
         {
+            //teste 
             throw new NotImplementedException();
         }
     }
